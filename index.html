@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>APP ESTADÍSTICA</title>
+  <title>APP ESTADÍSTICA v2</title>
   <!-- Ajustar la ruta para el manifest -->
-  <link rel="manifest" href="/calcestadistica/manifest.json">
+  <link rel="manifest" href="/estadisticav2/manifest.json">
   <style>
     body, html {
       margin: 0;
@@ -25,7 +25,7 @@
   <script>
     // Ajustar la ruta para el service worker
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/calcestadistica/service-worker.js')
+      navigator.serviceWorker.register('/estadisticav2/service-worker.js')
       .then(registration => {
         console.log('Service Worker registrado con éxito:', registration);
       })
